@@ -91,6 +91,7 @@ O simulador gera o arquivo `poxim1.output.txt` contendo a execução detalhada, 
 ## 👨‍💻 Autor
 
 **Henrick Cardoso**
+
 Projeto desenvolvido na disciplina de **Arquitetura de Computadores** — 2024.
 
 ---
