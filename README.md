@@ -48,7 +48,7 @@ Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_outpu
 
 ## 🧾 Exemplo de Saída
 
-O simulador gera o arquivo `poxim1.output.txt` contendo a execução detalhada, linha a linha, com o valor dos registradores e o estado dos flags.
+O simulador gera o arquivo `poxim1_output.txt` contendo a execução detalhada, linha a linha, com o valor dos registradores e o estado dos flags.
 
 ```
 [START OF SIMULATION]
