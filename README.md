@@ -56,11 +56,11 @@ poxim1.input.txt
 Trecho ilustrativo do conteúdo:
 
 ```text
-0xDC0000AD
-0x00000000
-0x00000000
-0x00000000
-0x00000000
+0x1015AB0A
+0x4E350001
+0x0EF11000
+0x7C000000
+0x01BFFFFF
 ...
 ```
 
