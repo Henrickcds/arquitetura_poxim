@@ -1,6 +1,6 @@
 # arquitetura_poxim
 Projeto que simula uma arquitetura projetada para fins acadêmicos
-# 🧮 Simulador de Arquitetura Acadêmica — POXIM1
+# 🧮 Simulador de Arquitetura Acadêmica — POXIM
 
 Este projeto implementa um **simulador de arquitetura de computadores** desenvolvido para fins acadêmicos.
 O simulador lê um arquivo de entrada contendo instruções em formato **hexadecimal** (representando o código de máquina da arquitetura POXIM1) e gera um arquivo de saída descrevendo a execução de cada instrução.
@@ -22,9 +22,9 @@ Compreender o funcionamento de uma arquitetura de processador simplificada, abor
 ## 🗂️ Estrutura do Projeto
 
 ```
-├── henrickcardoso_202200060035_poxim1.c   # Código-fonte principal em C
-├── poxim1.input.txt                       # Arquivo de entrada com instruções em hexadecimal
-└── (gerado após execução) poxim1.output.txt  # Arquivo de saída com o resultado da simulação
+├── arquitetura_poxim.c   # Código-fonte principal em C
+├── poxim_input.txt                       # Arquivo de entrada com instruções em hexadecimal
+└── (gerado após execução) poxim_output.txt  # Arquivo de saída com o resultado da simulação
 ```
 
 ---
@@ -34,22 +34,15 @@ Compreender o funcionamento de uma arquitetura de processador simplificada, abor
 ### 1️⃣ Compilar o programa
 
 ```bash
-gcc henrickcardoso_202200060035_poxim1.c -o poxim1
+gcc arquitetura_poxim.c -o poxim1
 ```
 
 ### 2️⃣ Executar o simulador
 
-Por padrão, o código busca os arquivos `poxim1.input.txt` e cria `poxim1.output.txt` automaticamente.
+Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_output.txt` automaticamente.
 
 ```bash
 ./poxim1
-```
-
-> 💡 **Dica:** se quiser usar arquivos personalizados, descomente as linhas indicadas no `main` e execute:
->
-> ```bash
-> ./poxim1 entrada.txt saida.txt
-> ```
 
 ---
 
@@ -101,6 +94,6 @@ O simulador gera o arquivo `poxim1.output.txt` contendo a execução detalhada, 
 ## 👨‍💻 Autor
 
 **Henrick Cardoso**
-Projeto desenvolvido na disciplina de **Arquitetura de Computadores** — 2025.
+Projeto desenvolvido na disciplina de **Arquitetura de Computadores** — 2024.
 
 ---
