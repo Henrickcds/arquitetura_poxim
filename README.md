@@ -1,5 +1,3 @@
-# arquitetura_poxim
-Projeto que simula uma arquitetura projetada para fins acadêmicos
 # 🧮 Simulador de Arquitetura Acadêmica — POXIM
 
 Este projeto implementa um **simulador de arquitetura de computadores** desenvolvido para fins acadêmicos.
