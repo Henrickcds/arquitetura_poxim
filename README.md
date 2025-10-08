@@ -45,12 +45,12 @@ Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_outpu
 
 ## 📥 Exemplo de Arquivo de Entrada
 
-O simulador utiliza um arquivo `.txt` contendo instruções em **formato hexadecimal**, representando o código de máquina da arquitetura POXIM1.
+O simulador utiliza um arquivo `.txt` contendo instruções em **formato hexadecimal**, representando o código de máquina da arquitetura POXIM.
 
 O arquivo de exemplo incluso no repositório é:
 
 ```
-poxim1.input.txt
+poxim1_input.txt
 ```
 
 Trecho ilustrativo do conteúdo:
@@ -65,7 +65,7 @@ Trecho ilustrativo do conteúdo:
 ```
 
 Cada linha representa uma **instrução de 32 bits** que será decodificada e executada pelo simulador.
-Durante a execução, o programa lê esse arquivo, processa cada instrução e gera o arquivo `poxim1.output.txt` com o resultado detalhado da simulação.
+Durante a execução, o programa lê esse arquivo, processa cada instrução e gera o arquivo `poxim1_output.txt` com o resultado detalhado da simulação.
 
 ---
 
