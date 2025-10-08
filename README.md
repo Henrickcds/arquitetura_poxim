@@ -3,7 +3,7 @@ Projeto que simula uma arquitetura projetada para fins acadêmicos
 # 🧮 Simulador de Arquitetura Acadêmica — POXIM
 
 Este projeto implementa um **simulador de arquitetura de computadores** desenvolvido para fins acadêmicos.
-O simulador lê um arquivo de entrada contendo instruções em formato **hexadecimal** (representando o código de máquina da arquitetura POXIM1) e gera um arquivo de saída descrevendo a execução de cada instrução.
+O simulador lê um arquivo de entrada contendo instruções em formato **hexadecimal** (representando o código de máquina da arquitetura POXIM) e gera um arquivo de saída descrevendo a execução de cada instrução.
 
 ---
 
@@ -40,6 +40,32 @@ gcc arquitetura_poxim.c -o poxim1
 ### 2️⃣ Executar o simulador
 
 Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_output.txt` automaticamente.
+
+---
+
+## 📥 Exemplo de Arquivo de Entrada
+
+O simulador utiliza um arquivo `.txt` contendo instruções em **formato hexadecimal**, representando o código de máquina da arquitetura POXIM1.
+
+O arquivo de exemplo incluso no repositório é:
+
+```
+poxim1.input.txt
+```
+
+Trecho ilustrativo do conteúdo:
+
+```text
+0xDC0000AD
+0x00000000
+0x00200001
+0x01400200
+0x02840000
+...
+```
+
+Cada linha representa uma **instrução de 32 bits** que será decodificada e executada pelo simulador.
+Durante a execução, o programa lê esse arquivo, processa cada instrução e gera o arquivo `poxim1.output.txt` com o resultado detalhado da simulação.
 
 ---
 
