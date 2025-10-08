@@ -50,12 +50,12 @@ Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_outpu
 
 O simulador gera o arquivo `poxim1_output.txt` contendo a execução detalhada, linha a linha, com o valor dos registradores e o estado dos flags.
 
-```
+``` bash
 [START OF SIMULATION]
 0x00000000:  mov R1,10         R1=0x0000000A
 0x00000004:  add R2,R1,R3      R2=R1+R3=0x00000014, SR=0x00000000
 ...
-```
+``` bash
 
 ---
 
