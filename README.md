@@ -52,9 +52,16 @@ O simulador gera o arquivo `poxim1_output.txt` contendo a execução detalhada, 
 
 ```
 [START OF SIMULATION]
+```
+```
 0x00000000:  mov R1,10         R1=0x0000000A
+```
+```
 0x00000004:  add R2,R1,R3      R2=R1+R3=0x00000014, SR=0x00000000
+```
+```
 ...
+```
 ```
 
 ---
