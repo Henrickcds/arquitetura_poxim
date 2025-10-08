@@ -41,8 +41,9 @@ gcc arquitetura_poxim.c -o poxim1
 
 Por padrão, o código busca os arquivos `poxim1_input.txt` e cria `poxim1_output.txt` automaticamente.
 
-```bash
 ./poxim1
+
+```bash
 
 ---
 
